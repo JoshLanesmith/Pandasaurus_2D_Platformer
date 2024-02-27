@@ -1,7 +1,5 @@
 # 2D Platformer By Team Pandasaurus 🐼
 
-## Project Description
-
 Group project developed for the VARLab Game Jam
 
 ## Project History
