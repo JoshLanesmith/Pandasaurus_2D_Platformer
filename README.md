@@ -1,18 +1,28 @@
-# Pandasaurus 2D Platformer
+# 2D Platformer By Team Pandasaurus 🐼
+
 Group project developed for the VARLab Game Jam
 
-Using Staging Branch for feature development
+## Project History
 
+- **Developement Period:** Feb/27/2024 - Mar/01/2024
 
-### Contributors
----
-- Josh
-- Chloe
-- Dylan
-- Jindo
-- Juhwan
-- Miles
-- Gabe
-- Dany
-- Alex
-- Johnstanley
+## Development Environment
+
+- **Programming Language:** `C#`
+- **Game Engine:** `Unity`
+- **Version Control System:** `Git & GitHub`
+- **Progroject Management:** [`Azure DevOps`](https://dev.azure.com/pandasaurusTEAM/2D_Platformer)
+- **IDE:** `Visual Studio`
+
+## Contributors (Alphabetical Order)
+
+- Alexander Philippopoulos
+- Chloe Feierabend
+- Dahyun Ko
+- Dylan Seitz
+- Gabriel Siewert
+- Jindo Kim
+- Johnstanley Ajagu
+- Josh Lane-smith
+- Juhwan Seo
+- Miles Purvis
