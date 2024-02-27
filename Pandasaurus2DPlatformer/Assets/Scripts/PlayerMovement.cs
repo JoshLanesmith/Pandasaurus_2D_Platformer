@@ -15,9 +15,11 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float moveSpeed = 7f;
     [SerializeField] private float jumpForce = 14f;
 
-    private enum MovementState { idle, running, jumping, falling }
+    private enum MovementState { idle, running, jumping, falling, doubleJump }
 
     [SerializeField] private AudioSource jumpSoundEffect;
+
+    private int jumps = 0;
 
     // Start is called before the first frame update
     private void Start()
@@ -35,12 +37,16 @@ public class PlayerMovement : MonoBehaviour
         rb.velocity = new Vector2(dirX * moveSpeed, rb.velocity.y);
 
 
-        if (Input.GetButtonDown("Jump") && IsGrounded())
+        if (Input.GetButtonDown("Jump") && (IsGrounded() || jumps < 1))
         {
+            jumps++;
             jumpSoundEffect.Play();
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
         }
-
+        if (IsGrounded())
+        {
+            jumps = 0;
+        }
         UpdateAnimationState();
     }
 
@@ -65,7 +71,14 @@ public class PlayerMovement : MonoBehaviour
 
         if (rb.velocity.y > .1f)
         {
-            state = MovementState.jumping;
+            if (jumps == 0)
+            {
+                state = MovementState.jumping;
+            }
+            else
+            {
+                state = MovementState.doubleJump;
+            }
         }
         else if (rb.velocity.y < -.1f)
         {
