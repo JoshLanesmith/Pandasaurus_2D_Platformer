@@ -2,15 +2,6 @@
 
 Group project developed for the VARLab Game Jam
 
-<<<<<<< HEAD
-Using Staging Branch for feature development
-
-
-### Contributors
----
-- Josh
-- Chloe
-=======
 ## Project History
 
 - **Developement Period:** Feb/27/2024 - Mar/01/2024
@@ -28,7 +19,6 @@ Using Staging Branch for feature development
 - Alexander Philippopoulos
 - Chloe Feierabend
 - Dahyun Ko
->>>>>>> dany_modify_readme
 - Dylan
 - Gabriel Siewert
 - Jindo Kim
