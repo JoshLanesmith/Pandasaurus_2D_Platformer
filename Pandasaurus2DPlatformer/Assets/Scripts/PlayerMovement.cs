@@ -15,8 +15,6 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float moveSpeed = 7f;
     [SerializeField] private float jumpForce = 14f;
 
-    private bool paused = Time.timeScale == 0f ? true : false;
-
     private enum MovementState { idle, running, jumping, falling, doubleJump }
 
     private int jumps = 0;
@@ -33,8 +31,6 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        if (!paused)
-        {
             dirX = Input.GetAxisRaw("Horizontal");
             rb.velocity = new Vector2(dirX * moveSpeed, rb.velocity.y);
 
@@ -50,7 +46,6 @@ public class PlayerMovement : MonoBehaviour
                 jumps = 0;
             }
             UpdateAnimationState(); 
-        }
     }
 
     private void UpdateAnimationState()
