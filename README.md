@@ -19,7 +19,7 @@ Group project developed for the VARLab Game Jam
 - Alexander Philippopoulos
 - Chloe Feierabend
 - Dahyun Ko
-- Dylan
+- Dylan Seitz
 - Gabriel Siewert
 - Jindo Kim
 - Johnstanley Ajagu
