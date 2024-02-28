@@ -38195,6 +38195,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Finish
       objectReference: {fileID: 0}
+    - target: {fileID: 5263948165572476670, guid: b11e1285f7649ba429bfacd473e89b9c, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7845279125532534171, guid: b11e1285f7649ba429bfacd473e89b9c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 63.37
