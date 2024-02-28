@@ -182,7 +182,6 @@ MonoBehaviour:
     m_Bits: 64
   moveSpeed: 7
   jumpForce: 14
-  jumpSoundEffect: {fileID: 6353296899441736013}
 --- !u!95 &3305659195904153910
 Animator:
   serializedVersion: 5
@@ -217,7 +216,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cherriesText: {fileID: 0}
-  collectSoundEffect: {fileID: 8697548380328671267}
 --- !u!114 &4135802808929401805
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -230,7 +228,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41ac06ad6ee488047a28e14e0d548ff6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathSoundEffect: {fileID: 1866055076113635220}
 --- !u!82 &6353296899441736013
 AudioSource:
   m_ObjectHideFlags: 0
@@ -242,7 +239,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 29bde6326b4c34ad8a12da475f79b50a, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -338,7 +335,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: ffb159a21c8a04135a5616979c828fab, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -434,7 +431,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 4b4dd7245f6104c8c8eb07ccf6b386ed, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
