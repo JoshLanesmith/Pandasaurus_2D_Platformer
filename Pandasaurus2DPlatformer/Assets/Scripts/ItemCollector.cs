@@ -16,8 +16,6 @@ public class ItemCollector : MonoBehaviour
     [SerializeField] private TextMeshProUGUI ButterflyThirdTextCountText;
     [SerializeField] private TextMeshProUGUI ButterflyFourthTextCountText;
 
-    [SerializeField] private AudioSource collectSoundEffect;
-
     private bool swiping = false;
 
     private void Update()
@@ -41,6 +39,10 @@ public class ItemCollector : MonoBehaviour
         }
         else if (collision.gameObject.CompareTag("Melon") && swiping)
         {
+            if (AudioManager.Instance != null) AudioManager.Instance.PlaySFX("Collect");
+            Destroy(collision.gameObject);
+            cherries++;
+            cherriesText.text = "Cherries: " + cherries;
             CollectItem(ref melon, ButterflyFourthTextCountText, collision.gameObject);
         }
     }

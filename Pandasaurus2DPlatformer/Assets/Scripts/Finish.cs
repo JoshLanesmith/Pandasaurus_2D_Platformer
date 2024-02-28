@@ -20,6 +20,7 @@ public class Finish : MonoBehaviour
         if (collision.gameObject.name == "Player" && !levelCompleted)
         {
             finishSound.Play();
+            AudioManager.Instance.musicSource.Stop();
             levelCompleted = true;
             Invoke("CompleteLevel", 2f);
         }
