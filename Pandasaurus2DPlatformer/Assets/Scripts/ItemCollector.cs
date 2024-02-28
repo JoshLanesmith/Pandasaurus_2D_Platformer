@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class ItemCollector : MonoBehaviour
@@ -11,9 +12,17 @@ public class ItemCollector : MonoBehaviour
 
     [SerializeField] private AudioSource collectSoundEffect;
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private bool swiping = false;
+
+    private void Update()
     {
-        if (collision.gameObject.CompareTag("Cherry"))
+        swiping = GetComponent<PlayerMovement>().IsSwiping;
+    }
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+
+        if (collision.gameObject.CompareTag("Cherry") && swiping)
         {
             collectSoundEffect.Play();
             Destroy(collision.gameObject);
@@ -21,4 +30,5 @@ public class ItemCollector : MonoBehaviour
             cherriesText.text = "Cherries: " + cherries;
         }
     }
+
 }

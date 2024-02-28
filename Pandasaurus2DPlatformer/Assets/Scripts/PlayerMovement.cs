@@ -15,9 +15,13 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float moveSpeed = 7f;
     [SerializeField] private float jumpForce = 14f;
 
-    private enum MovementState { idle, running, jumping, falling }
+    private enum MovementState { idle, running, jumping, falling, doubleJump, swiping }
+    private bool isSwiping = false;
 
     [SerializeField] private AudioSource jumpSoundEffect;
+
+    public bool IsSwiping { get => isSwiping; }
+
 
     // Start is called before the first frame update
     private void Start()
@@ -41,6 +45,11 @@ public class PlayerMovement : MonoBehaviour
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
         }
 
+        if (Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            isSwiping = true;
+        }
+
         UpdateAnimationState();
     }
 
@@ -48,29 +57,37 @@ public class PlayerMovement : MonoBehaviour
     {
         MovementState state;
 
-        if (dirX > 0f)
+        if (isSwiping)
         {
-            state = MovementState.running;
-            sprite.flipX = false;
-        }
-        else if (dirX < 0f)
-        {
-            state = MovementState.running;
-            sprite.flipX = true;
+            state = MovementState.swiping;
         }
         else
         {
-            state = MovementState.idle;
-        }
+            if (dirX > 0f)
+            {
+                state = MovementState.running;
+                sprite.flipX = false;
+            }
+            else if (dirX < 0f)
+            {
+                state = MovementState.running;
+                sprite.flipX = true;
+            }
+            else
+            {
+                state = MovementState.idle;
+            }
 
-        if (rb.velocity.y > .1f)
-        {
-            state = MovementState.jumping;
+            if (rb.velocity.y > .1f)
+            {
+                state = MovementState.jumping;
+            }
+            else if (rb.velocity.y < -.1f)
+            {
+                state = MovementState.falling;
+            }
         }
-        else if (rb.velocity.y < -.1f)
-        {
-            state = MovementState.falling;
-        }
+        
 
         anim.SetInteger("state", (int)state);
     }
@@ -78,5 +95,10 @@ public class PlayerMovement : MonoBehaviour
     private bool IsGrounded()
     {
         return Physics2D.BoxCast(coll.bounds.center, coll.bounds.size, 0f, Vector2.down, .1f, jumpableGround);
+    }
+
+    private void FinishSwiping()
+    {
+        isSwiping = false;
     }
 }
