@@ -15,11 +15,10 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float moveSpeed = 7f;
     [SerializeField] private float jumpForce = 14f;
 
-    private bool paused = Time.timeScale == 0f ? true : false;
     private enum MovementState { idle, running, jumping, falling, doubleJump, swiping }
     private bool isSwiping = false;
 
-    private enum MovementState { idle, running, jumping, falling, doubleJump }
+    [SerializeField] private AudioSource jumpSoundEffect;
 
     public bool IsSwiping { get => isSwiping; }
 
@@ -37,15 +36,14 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        if (!paused)
-        {
-            dirX = Input.GetAxisRaw("Horizontal");
-            rb.velocity = new Vector2(dirX * moveSpeed, rb.velocity.y);
+        dirX = Input.GetAxisRaw("Horizontal");
+        rb.velocity = new Vector2(dirX * moveSpeed, rb.velocity.y);
+
 
         if (Input.GetButtonDown("Jump") && (IsGrounded() || jumps < 1))
         {
             jumps++;
-            if (AudioManager.Instance != null) AudioManager.Instance.PlaySFX("Jump");
+            jumpSoundEffect.Play();
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
         }
 
