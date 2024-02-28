@@ -15,9 +15,9 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float moveSpeed = 7f;
     [SerializeField] private float jumpForce = 14f;
 
-    private enum MovementState { idle, running, jumping, falling, doubleJump }
+    private bool paused = Time.timeScale == 0f ? true : false;
 
-    [SerializeField] private AudioSource jumpSoundEffect;
+    private enum MovementState { idle, running, jumping, falling, doubleJump }
 
     private int jumps = 0;
 
@@ -33,21 +33,24 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        dirX = Input.GetAxisRaw("Horizontal");
-        rb.velocity = new Vector2(dirX * moveSpeed, rb.velocity.y);
+        if (!paused)
+        {
+            dirX = Input.GetAxisRaw("Horizontal");
+            rb.velocity = new Vector2(dirX * moveSpeed, rb.velocity.y);
 
 
-        if (Input.GetButtonDown("Jump") && (IsGrounded() || jumps < 1))
-        {
-            jumps++;
-            jumpSoundEffect.Play();
-            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+            if (Input.GetButtonDown("Jump") && (IsGrounded() || jumps < 1))
+            {
+                jumps++;
+                if (AudioManager.Instance != null) AudioManager.Instance.PlaySFX("Jump");
+                rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+            }
+            if (IsGrounded())
+            {
+                jumps = 0;
+            }
+            UpdateAnimationState(); 
         }
-        if (IsGrounded())
-        {
-            jumps = 0;
-        }
-        UpdateAnimationState();
     }
 
     private void UpdateAnimationState()

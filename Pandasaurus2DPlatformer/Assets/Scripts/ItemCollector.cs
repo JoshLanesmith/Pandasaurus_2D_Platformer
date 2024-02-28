@@ -9,13 +9,11 @@ public class ItemCollector : MonoBehaviour
 
     [SerializeField] private TextMeshProUGUI cherriesText;
 
-    [SerializeField] private AudioSource collectSoundEffect;
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Cherry"))
         {
-            collectSoundEffect.Play();
+            if (AudioManager.Instance != null) AudioManager.Instance.PlaySFX("Collect");
             Destroy(collision.gameObject);
             cherries++;
             cherriesText.text = "Cherries: " + cherries;
