@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 namespace DialogueSystem
 {
@@ -38,6 +39,7 @@ namespace DialogueSystem
         {
             StartCoroutine(WriteText(input, textHolder, color, font, delay, sound,delaySpeaking));
         }
+
     }
 
 }
