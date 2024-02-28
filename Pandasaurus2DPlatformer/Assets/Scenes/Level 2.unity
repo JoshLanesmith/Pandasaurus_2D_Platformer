@@ -42970,10 +42970,30 @@ PrefabInstance:
       propertyPath: cherriesText
       value: 
       objectReference: {fileID: 959504271}
+    - target: {fileID: 5818597979528570884, guid: 1ea34dd4b552c5945b163a5b2aa4bf5e, type: 3}
+      propertyPath: m_Size.y
+      value: 1.975738
+      objectReference: {fileID: 0}
+    - target: {fileID: 5818597979528570884, guid: 1ea34dd4b552c5945b163a5b2aa4bf5e, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.02082014
+      objectReference: {fileID: 0}
+    - target: {fileID: 5818597979528570884, guid: 1ea34dd4b552c5945b163a5b2aa4bf5e, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 5818597979528570884, guid: 1ea34dd4b552c5945b163a5b2aa4bf5e, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.28
+      objectReference: {fileID: 0}
     - target: {fileID: 6969981770661066564, guid: 1ea34dd4b552c5945b163a5b2aa4bf5e, type: 3}
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 8477148984972747441, guid: 1ea34dd4b552c5945b163a5b2aa4bf5e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -6367560908665664636, guid: 40de9a8703e2e5a47882b0b86451c741, type: 3}
     - target: {fileID: 9070419737877887526, guid: 1ea34dd4b552c5945b163a5b2aa4bf5e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.68
