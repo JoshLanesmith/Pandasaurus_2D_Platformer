@@ -16,8 +16,12 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float jumpForce = 14f;
 
     private bool paused = Time.timeScale == 0f ? true : false;
+    private enum MovementState { idle, running, jumping, falling, doubleJump, swiping }
+    private bool isSwiping = false;
 
     private enum MovementState { idle, running, jumping, falling, doubleJump }
+
+    public bool IsSwiping { get => isSwiping; }
 
     private int jumps = 0;
 
@@ -38,55 +42,70 @@ public class PlayerMovement : MonoBehaviour
             dirX = Input.GetAxisRaw("Horizontal");
             rb.velocity = new Vector2(dirX * moveSpeed, rb.velocity.y);
 
-
-            if (Input.GetButtonDown("Jump") && (IsGrounded() || jumps < 1))
-            {
-                jumps++;
-                if (AudioManager.Instance != null) AudioManager.Instance.PlaySFX("Jump");
-                rb.velocity = new Vector2(rb.velocity.x, jumpForce);
-            }
-            if (IsGrounded())
-            {
-                jumps = 0;
-            }
-            UpdateAnimationState(); 
+        if (Input.GetButtonDown("Jump") && (IsGrounded() || jumps < 1))
+        {
+            jumps++;
+            if (AudioManager.Instance != null) AudioManager.Instance.PlaySFX("Jump");
+            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
         }
+
+        if (Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            isSwiping = true;
+        }
+        if (IsGrounded())
+        {
+            jumps = 0;
+        }
+        
+
+        UpdateAnimationState();
     }
 
     private void UpdateAnimationState()
     {
         MovementState state;
 
-        if (dirX > 0f)
+        if (isSwiping)
         {
-            state = MovementState.running;
-            sprite.flipX = false;
-        }
-        else if (dirX < 0f)
-        {
-            state = MovementState.running;
-            sprite.flipX = true;
+            state = MovementState.swiping;
         }
         else
         {
-            state = MovementState.idle;
-        }
-
-        if (rb.velocity.y > .1f)
-        {
-            if (jumps == 0)
+            if (dirX > 0f)
             {
-                state = MovementState.jumping;
+                state = MovementState.running;
+                sprite.flipX = false;
+            }
+            else if (dirX < 0f)
+            {
+                state = MovementState.running;
+                sprite.flipX = true;
             }
             else
             {
-                state = MovementState.doubleJump;
+                state = MovementState.idle;
             }
+
+
+            if (rb.velocity.y > .1f)
+            {
+                if (jumps == 0)
+                {
+                    state = MovementState.jumping;
+                }
+                else
+                {
+                    state = MovementState.doubleJump;
+                }
+            }
+            else if (rb.velocity.y < -.1f)
+            {
+                state = MovementState.falling;
+            }
+
         }
-        else if (rb.velocity.y < -.1f)
-        {
-            state = MovementState.falling;
-        }
+        
 
         anim.SetInteger("state", (int)state);
     }
@@ -94,5 +113,10 @@ public class PlayerMovement : MonoBehaviour
     private bool IsGrounded()
     {
         return Physics2D.BoxCast(coll.bounds.center, coll.bounds.size, 0f, Vector2.down, .1f, jumpableGround);
+    }
+
+    private void FinishSwiping()
+    {
+        isSwiping = false;
     }
 }
