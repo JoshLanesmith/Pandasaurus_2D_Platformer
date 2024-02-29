@@ -46,7 +46,8 @@ public class ItemCollector : MonoBehaviour
     }
     private void CollectItem(ref int counter, TextMeshProUGUI text, GameObject item)
     {
-        collectSoundEffect.Play();
+        //collectSoundEffect.Play();
+        if(AudioManager.Instance != null) AudioManager.Instance.PlaySFX("Collect");
         Destroy(item);
         counter++;
         text.text = counter.ToString();
