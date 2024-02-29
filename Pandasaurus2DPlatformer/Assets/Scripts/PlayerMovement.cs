@@ -24,6 +24,14 @@ public class PlayerMovement : MonoBehaviour
 
     private int jumps = 0;
 
+    // for dash
+    private bool canDash = true;
+    private bool isDashing;
+    private float dashingPower = 24f; // the speed of Dash.
+    private float dashingTime = 0.2f;
+    private float dashingCooldown = 0.5f; // the cooldown time before Dash can be used again.
+    [SerializeField] private TrailRenderer tr; // It is used to render the trail left behind the player during Dash.
+
     // Start is called before the first frame update
     private void Start()
     {
@@ -36,6 +44,13 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
+        // It checks if the character is currently dashing.
+        if (isDashing)
+        {
+            // It immediately returns so that it pauses any other actions while dashing.
+            return;
+        }
+
         dirX = Input.GetAxisRaw("Horizontal");
         rb.velocity = new Vector2(dirX * moveSpeed, rb.velocity.y);
 
@@ -43,7 +58,8 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetButtonDown("Jump") && (IsGrounded() || jumps < 1))
         {
             jumps++;
-            jumpSoundEffect.Play();
+            //jumpSoundEffect.Play();
+            if(AudioManager.Instance != null) AudioManager.Instance.PlaySFX("Jump");
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
         }
 
@@ -58,6 +74,12 @@ public class PlayerMovement : MonoBehaviour
         
 
         UpdateAnimationState();
+
+        // If the player presses the LeftControl key and Dash is available, it starts the Dash coroutine.
+        if (Input.GetKeyDown(KeyCode.LeftControl) && canDash)
+        {
+            StartCoroutine(Dash());
+        }
     }
 
     private void UpdateAnimationState()
@@ -116,5 +138,23 @@ public class PlayerMovement : MonoBehaviour
     private void FinishSwiping()
     {
         isSwiping = false;
+    }
+
+    private IEnumerator Dash()
+    {
+        canDash = false; // When Dash starts, it prevents Dash from being used again.
+        isDashing = true;
+        float originalGravity = rb.gravityScale;
+        rb.gravityScale = 0f;  // During Dash, it sets the gravity scale to 0 to prevent the effect of gravity.
+        rb.velocity = new Vector2(dirX * dashingPower, 0f); // It sets the player's velocity to the Dash speed.
+        tr.emitting = true; // It starts rendering the trail.
+        /* Yield instructions are a key part of coroutines in Unity. 
+        They allow the function to pause its execution here and resume on the next frame or after a certain amount of time.*/
+        yield return new WaitForSeconds(dashingTime);
+        tr.emitting = false;
+        rb.gravityScale = originalGravity;
+        isDashing = false;
+        yield return new WaitForSeconds(dashingCooldown); // It waits for the cooldown time of Dash.
+        canDash = true; // Dash becomes available again.
     }
 }

@@ -27,7 +27,8 @@ public class PlayerLife : MonoBehaviour
 
     private void Die()
     {
-        deathSoundEffect.Play();
+        //deathSoundEffect.Play();
+        if(AudioManager.Instance != null) AudioManager.Instance.PlaySFX("Death");
         rb.bodyType = RigidbodyType2D.Static;
         anim.SetTrigger("death");
     }
