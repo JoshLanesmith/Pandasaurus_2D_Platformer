@@ -82,7 +82,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -6367560908665664636, guid: 40de9a8703e2e5a47882b0b86451c741, type: 3}
+  m_Sprite: {fileID: -1229765954, guid: d177abe4f9d90824cbbf86e681a25bdd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -152,18 +152,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.026048511, y: -0.2500651}
+  m_Offset: {x: 0.09854084, y: 0.9098096}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2, y: 2}
+    pivot: {x: 0.3622651, y: 0.0506322}
+    oldSize: {x: 1.8611112, y: 2.161111}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.97890073, y: 1.3644178}
+  m_Size: {x: 0.6331693, y: 1.8997445}
   m_EdgeRadius: 0
 --- !u!114 &5211613591634026592
 MonoBehaviour:
@@ -183,6 +183,7 @@ MonoBehaviour:
   moveSpeed: 7
   jumpForce: 14
   jumpSoundEffect: {fileID: 6353296899441736013}
+  tr: {fileID: 0}
 --- !u!95 &3305659195904153910
 Animator:
   serializedVersion: 5
@@ -216,7 +217,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88bb6dd5d0288b7469ec25647aa70b2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cherriesText: {fileID: 0}
+  ButterflyFirstTextCountText: {fileID: 0}
+  ButterflySecondTextCountText: {fileID: 0}
+  ButterflyThirdTextCountText: {fileID: 0}
+  ButterflyFourthTextCountText: {fileID: 0}
   collectSoundEffect: {fileID: 8697548380328671267}
 --- !u!114 &4135802808929401805
 MonoBehaviour:
