@@ -9,17 +9,18 @@ TagManager:
   - Pineapple
   - Kiwi
   - Melon
+  - Blue
+  - Orange
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
   - PseudoTerrain
-  - Logo
   - Water
+  - UI
   - UI
   - Ground
   - GameText
-  - 
   - 
   - 
   - 
