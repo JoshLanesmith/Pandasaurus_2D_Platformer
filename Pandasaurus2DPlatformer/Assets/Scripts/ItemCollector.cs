@@ -18,38 +18,14 @@ public class ItemCollector : MonoBehaviour
 
     [SerializeField] private AudioSource collectSoundEffect;
 
-    private bool swiping = false;
-
-    private void Update()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        swiping = GetComponent<PlayerMovement>().IsSwiping;
-    }
-
-    private void OnTriggerStay2D(Collider2D collision)
-    {
-        if (collision.gameObject.CompareTag("Cherry") && swiping)
+        if (collision.gameObject.CompareTag("Cherry"))
         {
-            CollectItem(ref cherries, ButterflyFirstTextCountText, collision.gameObject);
+            collectSoundEffect.Play();
+            Destroy(collision.gameObject);
+            cherries++;
         }
-        else if (collision.gameObject.CompareTag("Pineapple") && swiping)
-        {
-            CollectItem(ref pineapple, ButterflySecondTextCountText, collision.gameObject);
-        }
-        else if (collision.gameObject.CompareTag("Kiwi") && swiping)
-        {
-            CollectItem(ref kiwi, ButterflyThirdTextCountText, collision.gameObject);
-        }
-        else if (collision.gameObject.CompareTag("Melon") && swiping)
-        {
-            CollectItem(ref melon, ButterflyFourthTextCountText, collision.gameObject);
-        }
-    }
-    private void CollectItem(ref int counter, TextMeshProUGUI text, GameObject item)
-    {
-        collectSoundEffect.Play();
-        Destroy(item);
-        counter++;
-        text.text = counter.ToString();
     }
 
 

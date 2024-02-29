@@ -1,8 +1,14 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Pandasaurus2DPlatformer/Assets/Pandasaurus Assets/Items/Bottles.meta
 guid: 4b59a55b1010ffb458f40e5c43e80d1b
 folderAsset: yes
 DefaultImporter:
+========
+guid: 5b947ae41b873b64f82e9b8e5c974b8f
+NativeFormatImporter:
+>>>>>>>> parent of 70ce853 (Audio controller on game scene):Pandasaurus2DPlatformer/Assets/New Terrain.asset.meta
   externalObjects: {}
+  mainObjectFileID: 15600000
   userData: 
   assetBundleName: 
   assetBundleVariant: 
