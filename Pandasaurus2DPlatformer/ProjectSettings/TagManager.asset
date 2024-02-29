@@ -13,11 +13,11 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - PseudoTerrain
   - Water
   - UI
   - Ground
-  - 
+  - GameText
   - 
   - 
   - 
