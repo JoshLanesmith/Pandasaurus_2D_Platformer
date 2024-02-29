@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9b5897e16f544c3419103ad3a417deb1
+guid: 61905d206151b1a46bb35b80612fcb29
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 90
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -97,232 +97,190 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Gnome_Jump_1_cropped_0
+      name: Gnome_Walk_Net_1_0
       rect:
         serializedVersion: 2
-        x: 60
-        y: 106
-        width: 251
-        height: 163
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 98cc38190243061418baa4a6881de844
-      internalID: 1163213208
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gnome_Jump_1_cropped_1
-      rect:
-        serializedVersion: 2
-        x: 348
-        y: 93
-        width: 263
-        height: 156
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a9f810dab6081e9419a002b594139ff2
-      internalID: -188276307
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gnome_Jump_1_cropped_2
-      rect:
-        serializedVersion: 2
-        x: 654
-        y: 112
-        width: 221
-        height: 165
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 13303bb1b000965449b189849664973d
-      internalID: 1989267595
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gnome_Jump_1_cropped_3
-      rect:
-        serializedVersion: 2
-        x: 921
-        y: 67
-        width: 201
-        height: 278
+        x: 1
+        y: 17
+        width: 233
+        height: 229
       alignment: 9
-      pivot: {x: 0.48480588, y: 0.09653248}
+      pivot: {x: 0.41589493, y: 0.05677039}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 854629f7eb4e3554fb47e3cfed1f3f03
-      internalID: 2033071267
+      spriteID: bb13338c3bc51f84b85ad4c8c9e06e35
+      internalID: 728819319
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gnome_Jump_1_cropped_4
+      name: Gnome_Walk_Net_1_1
       rect:
         serializedVersion: 2
-        x: 1190
-        y: 78
-        width: 241
-        height: 264
+        x: 285
+        y: 40
+        width: 216
+        height: 218
       alignment: 9
-      pivot: {x: 0.47967455, y: 0.08720693}
+      pivot: {x: 0.46743208, y: 0.0643698}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02fc6eee225b2eb41b1358b2deb26ae6
-      internalID: 1995200066
+      spriteID: b4c18f4c3e2bd224e939158210172ebb
+      internalID: -1417912645
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gnome_Jump_1_cropped_5
+      name: Gnome_Walk_Net_1_2
       rect:
         serializedVersion: 2
-        x: 1517
+        x: 522
+        y: 36
+        width: 277
+        height: 227
+      alignment: 9
+      pivot: {x: 0.4129286, y: 0.05950612}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc6c4fdab2b3e5246810f7c94f51912f
+      internalID: 1431137757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnome_Walk_Net_1_3
+      rect:
+        serializedVersion: 2
+        x: 823
         y: 39
-        width: 187
-        height: 342
+        width: 125
+        height: 266
       alignment: 9
-      pivot: {x: 0.47966647, y: 0.08326201}
+      pivot: {x: 0.46598926, y: 0.036508903}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 65184382261ad1b4f966d13ce18edea0
-      internalID: 2014586345
+      spriteID: 0d1ec1b6581687444a72e72bdd4431e4
+      internalID: -1749677076
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gnome_Jump_1_cropped_6
+      name: Gnome_Walk_Net_1_5
       rect:
         serializedVersion: 2
-        x: 1691
-        y: 55
-        width: 298
-        height: 313
+        x: 994
+        y: 37
+        width: 128
+        height: 269
       alignment: 9
-      pivot: {x: 0.5067917, y: 0.0779718}
+      pivot: {x: 0.4778576, y: 0.048702013}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0394a7b4fd453e24aa3265c379351a38
-      internalID: 1877271330
+      spriteID: d32dec98dad59e646ae5f32b8428b29f
+      internalID: 51213394
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gnome_Jump_1_cropped_7
+      name: Gnome_Walk_Net_1_6
       rect:
         serializedVersion: 2
-        x: 2060
-        y: 93
-        width: 153
-        height: 220
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1139
+        y: 42
+        width: 181
+        height: 262
+      alignment: 9
+      pivot: {x: 0.51565874, y: 0.05467383}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed7466923c5a3e44c90bf49a3e231d5c
-      internalID: -212537254
+      spriteID: fc35e054f068080479e986f5eed89f89
+      internalID: 1189819105
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gnome_Jump_1_cropped_8
+      name: Gnome_Walk_Net_1_7
       rect:
         serializedVersion: 2
-        x: 2307
-        y: 134
-        width: 243
-        height: 134
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1318
+        y: 39
+        width: 199
+        height: 253
+      alignment: 9
+      pivot: {x: 0.4548996, y: 0.046300475}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f3a78a2565c2a1a4a9ff08478f5fefa2
-      internalID: 2123432711
+      spriteID: db04d959499a35c4b948777bc5c9f793
+      internalID: -1472738346
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gnome_Jump_1_cropped_9
+      name: Gnome_Walk_Net_1_8
       rect:
         serializedVersion: 2
-        x: 2621
-        y: 98
-        width: 259
-        height: 222
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1518
+        y: 44
+        width: 242
+        height: 240
+      alignment: 9
+      pivot: {x: 0.36141187, y: 0.04927988}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c012db1dcafc5bf44840a5392e832e78
-      internalID: 1707726982
+      spriteID: 8262a8abd1c0a614cbd4ca1222cc5c92
+      internalID: 1661936363
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gnome_Jump_1_cropped_10
+      name: Gnome_Walk_Net_1_9
       rect:
         serializedVersion: 2
-        x: 2945
-        y: 83
-        width: 176
-        height: 248
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1762
+        y: 38
+        width: 253
+        height: 231
+      alignment: 9
+      pivot: {x: 0.4458548, y: 0.05830319}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 699b20ea4b9b1fd4196f8bd1525fa75d
-      internalID: 1025948082
+      spriteID: 1320599a0b11b714f90b1b27c1aff00e
+      internalID: -1970006430
       vertices: []
       indices: 
       edges: []
@@ -338,17 +296,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Gnome_Jump_1_cropped_0: 1163213208
-      Gnome_Jump_1_cropped_1: -188276307
-      Gnome_Jump_1_cropped_10: 1025948082
-      Gnome_Jump_1_cropped_2: 1989267595
-      Gnome_Jump_1_cropped_3: 2033071267
-      Gnome_Jump_1_cropped_4: 1995200066
-      Gnome_Jump_1_cropped_5: 2014586345
-      Gnome_Jump_1_cropped_6: 1877271330
-      Gnome_Jump_1_cropped_7: -212537254
-      Gnome_Jump_1_cropped_8: 2123432711
-      Gnome_Jump_1_cropped_9: 1707726982
+      Gnome_Walk_Net_1_0: 728819319
+      Gnome_Walk_Net_1_1: -1417912645
+      Gnome_Walk_Net_1_2: 1431137757
+      Gnome_Walk_Net_1_3: -1749677076
+      Gnome_Walk_Net_1_4: 468400544
+      Gnome_Walk_Net_1_5: 51213394
+      Gnome_Walk_Net_1_6: 1189819105
+      Gnome_Walk_Net_1_7: -1472738346
+      Gnome_Walk_Net_1_8: 1661936363
+      Gnome_Walk_Net_1_9: -1970006430
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
