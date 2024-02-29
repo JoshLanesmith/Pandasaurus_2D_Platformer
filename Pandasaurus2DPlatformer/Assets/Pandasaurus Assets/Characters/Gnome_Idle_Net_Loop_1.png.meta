@@ -104,8 +104,8 @@ TextureImporter:
         y: 21
         width: 335
         height: 389
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.3622651, y: 0.0506322}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -121,12 +121,12 @@ TextureImporter:
       name: Gnome_Idle_Net_Loop_1_1
       rect:
         serializedVersion: 2
-        x: 412
+        x: 411
         y: 15
         width: 334
         height: 391
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.37513578, y: 0.046122596}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -146,8 +146,8 @@ TextureImporter:
         y: 18
         width: 355
         height: 386
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.35002854, y: 0.044841085}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -167,8 +167,8 @@ TextureImporter:
         y: 16
         width: 334
         height: 390
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.391076, y: 0.06543572}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

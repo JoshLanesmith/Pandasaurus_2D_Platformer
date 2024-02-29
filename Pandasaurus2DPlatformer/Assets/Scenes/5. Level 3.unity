@@ -2688,7 +2688,39 @@ PrefabInstance:
       propertyPath: cherriesText
       value: 
       objectReference: {fileID: 391484217}
-    - target: {fileID: 6969981770661066564, guid: 1ea34dd4b552c5945b163a5b2aa4bf5e, type: 3}
+    - target: {fileID: 5818597979528570884, guid: dde3192b1d183c24e83320f7917a26af, type: 3}
+      propertyPath: m_Size.x
+      value: 0.7258576
+      objectReference: {fileID: 0}
+    - target: {fileID: 5818597979528570884, guid: dde3192b1d183c24e83320f7917a26af, type: 3}
+      propertyPath: m_Size.y
+      value: 1.880629
+      objectReference: {fileID: 0}
+    - target: {fileID: 5818597979528570884, guid: dde3192b1d183c24e83320f7917a26af, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.06147474
+      objectReference: {fileID: 0}
+    - target: {fileID: 5818597979528570884, guid: dde3192b1d183c24e83320f7917a26af, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.93924433
+      objectReference: {fileID: 0}
+    - target: {fileID: 5818597979528570884, guid: dde3192b1d183c24e83320f7917a26af, type: 3}
+      propertyPath: m_SpriteTilingProperty.pivot.x
+      value: 0.3622651
+      objectReference: {fileID: 0}
+    - target: {fileID: 5818597979528570884, guid: dde3192b1d183c24e83320f7917a26af, type: 3}
+      propertyPath: m_SpriteTilingProperty.pivot.y
+      value: 0.0506322
+      objectReference: {fileID: 0}
+    - target: {fileID: 5818597979528570884, guid: dde3192b1d183c24e83320f7917a26af, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.8611112
+      objectReference: {fileID: 0}
+    - target: {fileID: 5818597979528570884, guid: dde3192b1d183c24e83320f7917a26af, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.161111
+      objectReference: {fileID: 0}
+    - target: {fileID: 6969981770661066564, guid: dde3192b1d183c24e83320f7917a26af, type: 3}
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
@@ -2696,7 +2728,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9070419737877887526, guid: 1ea34dd4b552c5945b163a5b2aa4bf5e, type: 3}
+    - target: {fileID: 8477148984972747441, guid: dde3192b1d183c24e83320f7917a26af, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1229765954, guid: d177abe4f9d90824cbbf86e681a25bdd, type: 3}
+    - target: {fileID: 9070419737877887526, guid: dde3192b1d183c24e83320f7917a26af, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.07
       objectReference: {fileID: 0}
