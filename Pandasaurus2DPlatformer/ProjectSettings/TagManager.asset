@@ -14,6 +14,7 @@ TagManager:
   - TransparentFX
   - Ignore Raycast
   - PseudoTerrain
+  - Logo
   - Water
   - UI
   - Ground
@@ -51,4 +52,10 @@ TagManager:
     locked: 0
   - name: Terrain
     uniqueID: 2524768609
+    locked: 0
+  - name: UI Background
+    uniqueID: 2368873749
+    locked: 0
+  - name: Logo
+    uniqueID: 1502536983
     locked: 0

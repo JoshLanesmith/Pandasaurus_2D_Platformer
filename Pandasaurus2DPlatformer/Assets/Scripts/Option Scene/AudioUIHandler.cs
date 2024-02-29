@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class AudioUIController : MonoBehaviour
 {
@@ -12,24 +13,46 @@ public class AudioUIController : MonoBehaviour
     void Start()
     {
         audioControl.enabled = false;
-        isMenuActive = audioControl.enabled;
-
     }
 
     // Update is called once per frame
     void Update()
     {
+        int sceneIndex = SceneManager.GetActiveScene().buildIndex;
+
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            ToggleMenu();
+            if (sceneIndex != 0)
+            {
+                ToggleMenu();
+            }
+            else
+            {
+                isMenuActive = audioControl.enabled;
+                if (isMenuActive)
+                {
+                    ToggleMenu();
+                }
+            }
         }
+
+
     }
 
     public void ToggleMenu()
     {
-        isMenuActive = !isMenuActive;
-        audioControl.enabled = isMenuActive;
+        isMenuActive = audioControl.enabled;
 
-        Time.timeScale = isMenuActive ? 0f : 1f;
+        if (isMenuActive)
+        {
+            audioControl.enabled = false;
+        }
+        else
+        {
+            audioControl.enabled = true;
+        }
+
+        Time.timeScale = isMenuActive ? 1f : 0f;
+
     }
 }
