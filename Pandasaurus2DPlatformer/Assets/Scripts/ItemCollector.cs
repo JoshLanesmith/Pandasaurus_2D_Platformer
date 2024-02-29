@@ -6,8 +6,8 @@ using UnityEngine;
 
 public class ItemCollector : MonoBehaviour
 {
-    private int cherries = 0;
-    private int pineapple = 0;
+    private int blue_butter = 0;
+    private int orange_butter = 0;
     private int kiwi = 0;
     private int melon = 0;
 
@@ -27,13 +27,15 @@ public class ItemCollector : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Cherry") && swiping)
+        if (collision.gameObject.CompareTag("Blue") && swiping)
         {
-            CollectItem(ref cherries, ButterflyFirstTextCountText, collision.gameObject);
+            CollectItem(ref blue_butter, ButterflyFirstTextCountText, collision.gameObject);
+            Debug.Log("Blue butter!");
         }
-        else if (collision.gameObject.CompareTag("Pineapple") && swiping)
+        else if (collision.gameObject.CompareTag("Orange") && swiping)
         {
-            CollectItem(ref pineapple, ButterflySecondTextCountText, collision.gameObject);
+            CollectItem(ref orange_butter, ButterflySecondTextCountText, collision.gameObject);
+            Debug.Log("Orange butter!");
         }
         else if (collision.gameObject.CompareTag("Kiwi") && swiping)
         {
@@ -50,7 +52,7 @@ public class ItemCollector : MonoBehaviour
         if(AudioManager.Instance != null) AudioManager.Instance.PlaySFX("Collect");
         Destroy(item);
         counter++;
-        text.text = counter.ToString();
+        //text.text = counter.ToString();
     }
 
 
