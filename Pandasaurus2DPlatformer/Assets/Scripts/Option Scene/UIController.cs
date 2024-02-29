@@ -27,6 +27,7 @@ public class UIController : MonoBehaviour
         if (musicMuted)
         {
             _musicSlider.value = 0;
+
         }
         else
         {

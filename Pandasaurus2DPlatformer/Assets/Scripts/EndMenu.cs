@@ -7,7 +7,7 @@ public class EndMenu : MonoBehaviour
 {
     public void ReturnToMenu()
     {
-        SceneManager.LoadScene("Main Menu");
+        SceneManager.LoadScene("1. Main Menu Scene");
     }
 
     public void Quit()
