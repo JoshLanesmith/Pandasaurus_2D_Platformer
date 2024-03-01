@@ -1,0 +1,356 @@
+fileFormatVersion: 2
+guid: 4d68981429685c647b98860fb10fe88b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gnome_Jump_Net_1_0
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 106
+        width: 251
+        height: 163
+      alignment: 9
+      pivot: {x: 0.25024885, y: 0.09680518}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d411f62fdf586c4d9fc7588cd1b139c
+      internalID: -2063257844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnome_Jump_Net_1_1
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 93
+        width: 263
+        height: 156
+      alignment: 9
+      pivot: {x: 0.2885554, y: 0.09815691}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82aa7209e9f1581458989197c05c900d
+      internalID: -241035565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnome_Jump_Net_1_2
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 112
+        width: 221
+        height: 165
+      alignment: 9
+      pivot: {x: 0.24379623, y: 0.05879748}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ad014570dcd62a4c94731aa448c8a0e
+      internalID: -879723437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnome_Jump_Net_1_3
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 66
+        width: 182
+        height: 299
+      alignment: 9
+      pivot: {x: 0.5333326, y: 0.05701449}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 800e2516c25581546a352458e85fb4ae
+      internalID: 547375908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnome_Jump_Net_1_4
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 78
+        width: 213
+        height: 264
+      alignment: 9
+      pivot: {x: 0.54272234, y: 0.05190381}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7ab13d5a0522ef41b170dadb519da80
+      internalID: -138926450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnome_Jump_Net_1_5
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 0
+        width: 173
+        height: 383
+      alignment: 9
+      pivot: {x: 0.6227336, y: 0.15153065}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db5bb7b38d883d7439721b5aab7352b8
+      internalID: 439878140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnome_Jump_Net_1_6
+      rect:
+        serializedVersion: 2
+        x: 1803
+        y: 50
+        width: 188
+        height: 318
+      alignment: 9
+      pivot: {x: 0.1826899, y: 0.06440514}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b42777a2f46226742af5be8a22dcd878
+      internalID: -701662440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnome_Jump_Net_1_7
+      rect:
+        serializedVersion: 2
+        x: 2060
+        y: 93
+        width: 164
+        height: 220
+      alignment: 9
+      pivot: {x: 0.38902617, y: 0.07258509}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1194e4d55ef12c647b7bd04849e6f5ef
+      internalID: 536357431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnome_Jump_Net_1_8
+      rect:
+        serializedVersion: 2
+        x: 2307
+        y: 129
+        width: 243
+        height: 139
+      alignment: 9
+      pivot: {x: 0.22954443, y: 0.107202984}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7ea0756a61f2c244b04ce0fb1630aec
+      internalID: 135636499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnome_Jump_Net_1_9
+      rect:
+        serializedVersion: 2
+        x: 2621
+        y: 98
+        width: 261
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40a8ef6f99fcf2449866ad421e0cacca
+      internalID: 861976097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnome_Jump_Net_1_10
+      rect:
+        serializedVersion: 2
+        x: 2944
+        y: 83
+        width: 177
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb5f11a5c233bae4685e66bd208d0106
+      internalID: 1430603628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Gnome_Jump_Net_1_0: -2063257844
+      Gnome_Jump_Net_1_1: -241035565
+      Gnome_Jump_Net_1_10: 1430603628
+      Gnome_Jump_Net_1_2: -879723437
+      Gnome_Jump_Net_1_3: 547375908
+      Gnome_Jump_Net_1_4: -138926450
+      Gnome_Jump_Net_1_5: 439878140
+      Gnome_Jump_Net_1_6: -701662440
+      Gnome_Jump_Net_1_7: 536357431
+      Gnome_Jump_Net_1_8: 135636499
+      Gnome_Jump_Net_1_9: 861976097
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
