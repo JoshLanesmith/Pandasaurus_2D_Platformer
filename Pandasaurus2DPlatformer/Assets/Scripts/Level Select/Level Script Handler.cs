@@ -7,6 +7,11 @@ using UnityEngine.EventSystems;
 public class LevelSelector : MonoBehaviour
 {
 
+    public void MainMenu()
+    {
+        SceneManager.LoadScene("Main Menu Scene");
+    }
+
     public void StartLevel1()
     {
         SceneManager.LoadScene("Tutorial");
