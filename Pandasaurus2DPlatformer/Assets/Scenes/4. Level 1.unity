@@ -85633,8 +85633,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Audio Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 7480352541683469691, guid: 692eff56513bee148a09d152d3469ff2, type: 3}
+      propertyPath: audioControl
+      value: 
+      objectReference: {fileID: 1069052381}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 2569506733249137689, guid: 692eff56513bee148a09d152d3469ff2, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 692eff56513bee148a09d152d3469ff2, type: 3}

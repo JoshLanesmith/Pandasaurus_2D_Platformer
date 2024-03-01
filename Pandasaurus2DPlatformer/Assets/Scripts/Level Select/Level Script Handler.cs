@@ -9,25 +9,25 @@ public class LevelSelector : MonoBehaviour
 
     public void StartLevel1()
     {
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(4);
     }
 
     public void StartLevel2()
     {
-        SceneManager.LoadScene(4);
+        SceneManager.LoadScene(5);
     }
 
     public void StartLevel3()
     {
-        SceneManager.LoadScene(5);
+        SceneManager.LoadScene(6);
     }
     public void StartLevel4()
         {
-            SceneManager.LoadScene(6);
+            SceneManager.LoadScene(7);
         }
         public void StartLevel5()
             {
-                SceneManager.LoadScene(7);
+                SceneManager.LoadScene(8);
             }
 
 }
