@@ -10,16 +10,21 @@ public class WaypointFollower : MonoBehaviour
     [SerializeField] public float speed;
 
     private ItemCollector itemCollector;
+    private bool followAnyways = false;
 
     private void Start()
     {
         itemCollector = GetComponent<ItemCollector>();
+        if (!CompareTag("Blue") || !CompareTag("Orange") || !CompareTag("Purple") || !CompareTag("Magic"))
+        {
+            followAnyways = true;
+        }
     }
 
 
     private void Update()
     {
-        if (!itemCollector.isBeingCaptured)
+        if (followAnyways  || !itemCollector.isBeingCaptured)
         {   
             if (Vector2.Distance(waypoints[currentWaypointIndex].transform.position, transform.position) < .1f)
             {
