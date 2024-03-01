@@ -7183,7 +7183,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Butterfly
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7943028742758532916, guid: 6ac5325823526af4bb4b926b3662dc62, type: 3}
+    - {fileID: 3381385188270339270, guid: 6ac5325823526af4bb4b926b3662dc62, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
