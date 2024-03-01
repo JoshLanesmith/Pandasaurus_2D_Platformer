@@ -1499,7 +1499,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a70117d9f5daa349b8663fa6e6e5fba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: You mean this net?
+  input: A net like this?
   color: {r: 0.45490196, g: 0.4, b: 0.29411766, a: 1}
   font: {fileID: 12800000, guid: cadced43d78cd8542bc850729324f5bd, type: 3}
   delay: 0.1
@@ -3099,7 +3099,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a70117d9f5daa349b8663fa6e6e5fba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: All my friends are lost and I need some help.
+  input: All my friends are lost and I need to get them back.
   color: {r: 0.45490196, g: 0.4, b: 0.29411766, a: 1}
   font: {fileID: 12800000, guid: cadced43d78cd8542bc850729324f5bd, type: 3}
   delay: 0.1
