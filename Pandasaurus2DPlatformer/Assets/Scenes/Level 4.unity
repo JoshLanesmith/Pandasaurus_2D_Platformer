@@ -2663,16 +2663,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88bb6dd5d0288b7469ec25647aa70b2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  onButterflyCaptured:
+    m_PersistentCalls:
+      m_Calls: []
   isBeingCaptured: 0
   moveSpeed: 1
   butterflyFirstJar: {fileID: 13711694}
   butterflySecondjar: {fileID: 1744137238}
   butterflyThirdJar: {fileID: 14725860}
   butterflyFourthJar: {fileID: 1529477273}
-  butterflyFirstText: {fileID: 1410755246}
-  butterflySecondText: {fileID: 1192500424}
-  butterflyThridText: {fileID: 499702613}
-  butterflyFourthText: {fileID: 179351555}
   collectSoundEffect: {fileID: 396098531}
 --- !u!1001 &398267015
 PrefabInstance:
@@ -3028,7 +3027,7 @@ TilemapRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -430070723
+  m_SortingLayerID: -963161887
   m_SortingLayer: -1
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
@@ -3966,16 +3965,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88bb6dd5d0288b7469ec25647aa70b2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  onButterflyCaptured:
+    m_PersistentCalls:
+      m_Calls: []
   isBeingCaptured: 0
   moveSpeed: 1
   butterflyFirstJar: {fileID: 13711694}
   butterflySecondjar: {fileID: 1744137238}
   butterflyThirdJar: {fileID: 14725860}
   butterflyFourthJar: {fileID: 1529477273}
-  butterflyFirstText: {fileID: 1410755246}
-  butterflySecondText: {fileID: 1192500424}
-  butterflyThridText: {fileID: 499702613}
-  butterflyFourthText: {fileID: 179351555}
   collectSoundEffect: {fileID: 396098531}
 --- !u!4 &587497017 stripped
 Transform:
@@ -36689,16 +36687,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88bb6dd5d0288b7469ec25647aa70b2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  onButterflyCaptured:
+    m_PersistentCalls:
+      m_Calls: []
   isBeingCaptured: 0
   moveSpeed: 1
   butterflyFirstJar: {fileID: 13711694}
   butterflySecondjar: {fileID: 1744137238}
   butterflyThirdJar: {fileID: 14725860}
   butterflyFourthJar: {fileID: 1529477273}
-  butterflyFirstText: {fileID: 1410755246}
-  butterflySecondText: {fileID: 1192500424}
-  butterflyThridText: {fileID: 499702613}
-  butterflyFourthText: {fileID: 179351555}
   collectSoundEffect: {fileID: 396098531}
 --- !u!1 &1410755244
 GameObject:
@@ -37031,16 +37028,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88bb6dd5d0288b7469ec25647aa70b2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  onButterflyCaptured:
+    m_PersistentCalls:
+      m_Calls: []
   isBeingCaptured: 0
   moveSpeed: 1
   butterflyFirstJar: {fileID: 13711694}
   butterflySecondjar: {fileID: 1744137238}
   butterflyThirdJar: {fileID: 14725860}
   butterflyFourthJar: {fileID: 1529477273}
-  butterflyFirstText: {fileID: 1410755246}
-  butterflySecondText: {fileID: 1192500424}
-  butterflyThridText: {fileID: 499702613}
-  butterflyFourthText: {fileID: 179351555}
   collectSoundEffect: {fileID: 396098531}
 --- !u!4 &1437717498 stripped
 Transform:
@@ -37837,16 +37833,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88bb6dd5d0288b7469ec25647aa70b2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  onButterflyCaptured:
+    m_PersistentCalls:
+      m_Calls: []
   isBeingCaptured: 0
   moveSpeed: 1
   butterflyFirstJar: {fileID: 13711694}
   butterflySecondjar: {fileID: 1744137238}
   butterflyThirdJar: {fileID: 14725860}
   butterflyFourthJar: {fileID: 1529477273}
-  butterflyFirstText: {fileID: 1410755246}
-  butterflySecondText: {fileID: 1192500424}
-  butterflyThridText: {fileID: 499702613}
-  butterflyFourthText: {fileID: 179351555}
   collectSoundEffect: {fileID: 396098531}
 --- !u!4 &1605099324 stripped
 Transform:
@@ -38635,16 +38630,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88bb6dd5d0288b7469ec25647aa70b2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  onButterflyCaptured:
+    m_PersistentCalls:
+      m_Calls: []
   isBeingCaptured: 0
   moveSpeed: 1
   butterflyFirstJar: {fileID: 13711694}
   butterflySecondjar: {fileID: 1744137238}
   butterflyThirdJar: {fileID: 14725860}
   butterflyFourthJar: {fileID: 1529477273}
-  butterflyFirstText: {fileID: 1410755246}
-  butterflySecondText: {fileID: 1192500424}
-  butterflyThridText: {fileID: 499702613}
-  butterflyFourthText: {fileID: 179351555}
   collectSoundEffect: {fileID: 396098531}
 --- !u!4 &1722516854 stripped
 Transform:
