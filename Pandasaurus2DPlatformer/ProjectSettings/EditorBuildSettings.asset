@@ -25,7 +25,7 @@ EditorBuildSettings:
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/Level 2.unity
-    guid: 53c1bc0666e19e04588c75ff98d678de
+    guid: 41ff4c73de34a3d4fbe432e347ad18e0
   - enabled: 1
     path: Assets/Scenes/Level 3.unity
     guid: 5f38e649383fe5e45923817bd1469202
@@ -36,8 +36,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Level 5.unity
     guid: 7129f179be89f764f9b348447a5e82d9
   - enabled: 1
-    path: Assets/Scenes/Ending Cut scene.unity
-    guid: 9886f42511a1a194a821f7641fe07d35
+    path: Assets/Scenes/End Cutscene.unity
+    guid: 57c7c7433944d7b42bf00011b24212d5
   - enabled: 1
     path: Assets/Scenes/End Screen.unity
     guid: 40b74fa8379c1e2429ba211014c01e11

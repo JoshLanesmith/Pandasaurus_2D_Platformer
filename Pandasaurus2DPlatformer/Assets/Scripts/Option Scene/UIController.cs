@@ -23,6 +23,7 @@ public class UIController : MonoBehaviour
     {
         AudioManager.Instance.ToggleMusic();
         musicMuted = !musicMuted;
+        Debug.Log("Clicked!");
 
         if (musicMuted)
         {

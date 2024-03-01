@@ -65,6 +65,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
+            Debug.Log("Hello");
             isSwiping = true;
         }
         if (IsGrounded())

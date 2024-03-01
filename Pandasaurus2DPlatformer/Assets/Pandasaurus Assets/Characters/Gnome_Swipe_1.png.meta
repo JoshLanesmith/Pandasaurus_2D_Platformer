@@ -1,0 +1,271 @@
+fileFormatVersion: 2
+guid: e578a7e6ec0cd30429fc125e398bb621
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gnome_Swipe_1_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 107
+        width: 130
+        height: 281
+      alignment: 9
+      pivot: {x: 0.42671233, y: 0.03285991}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7759698023c8ff145aef98fc5457039b
+      internalID: -969399035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnome_Swipe_1_1
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 110
+        width: 154
+        height: 274
+      alignment: 9
+      pivot: {x: 0.60998434, y: 0.05569728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d395ef99e976b9045a5a5a656cdfe9c2
+      internalID: -1004544096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnome_Swipe_1_2
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 119
+        width: 186
+        height: 258
+      alignment: 9
+      pivot: {x: 0.53414834, y: 0.04865886}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 483d9b5c1c76dd141b4714da14797877
+      internalID: 196072833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnome_Swipe_1_3
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 129
+        width: 223
+        height: 214
+      alignment: 9
+      pivot: {x: 0.6091823, y: 0.059741225}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bab955460c64da41ad9fef6a9c14f36
+      internalID: -1480382926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnome_Swipe_1_4
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 126
+        width: 211
+        height: 247
+      alignment: 9
+      pivot: {x: 0.60006607, y: 0.041416246}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb060ed0af460c459d60b134475a5b7
+      internalID: -531555648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnome_Swipe_1_5
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 129
+        width: 151
+        height: 258
+      alignment: 9
+      pivot: {x: 0.5210317, y: 0.03634957}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bee85221cbb75e428e2d4c219b13372
+      internalID: -771725302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnome_Swipe_1_6
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 109
+        width: 210
+        height: 225
+      alignment: 9
+      pivot: {x: 0.24795212, y: 0.07656011}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2fd86d6ba3ef264a88a027bef7798ba
+      internalID: 437309523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Gnome_Swipe_1_0: -969399035
+      Gnome_Swipe_1_1: -1004544096
+      Gnome_Swipe_1_2: 196072833
+      Gnome_Swipe_1_3: -1480382926
+      Gnome_Swipe_1_4: -531555648
+      Gnome_Swipe_1_5: -771725302
+      Gnome_Swipe_1_6: 437309523
+      Gnome_Swipe_1_7: -774041794
+      Gnome_Swipe_1_8: 555997818
+      Gnome_Swipe_1_9: -333072682
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
