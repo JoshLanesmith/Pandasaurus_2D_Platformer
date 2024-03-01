@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/3. Help Scene.unity
     guid: 112b9c2ef1023524189ce573ae15df5f
   - enabled: 1
+    path: Assets/Scenes/Level Select.unity
+    guid: 7004c47d7ad1c8c46a050c25190e5053
+  - enabled: 1
     path: Assets/Scenes/4. Level 1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
@@ -26,6 +29,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/6. Level 4.unity
     guid: 922eb319fe147ea4fa39ab34c3a486e1
+  - enabled: 1
+    path: Assets/Scenes/Ending Cut scene.unity
+    guid: 9886f42511a1a194a821f7641fe07d35
   - enabled: 1
     path: Assets/Scenes/7. End Screen.unity
     guid: 40b74fa8379c1e2429ba211014c01e11
