@@ -38901,7 +38901,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7146504672075810101, guid: 73f21b611417fb944b32d2ea64d82da6, type: 3}
       propertyPath: m_SortingLayerID
-      value: -430070723
+      value: -963161887
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -40322,8 +40322,8 @@ TilemapRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -430070723
-  m_SortingLayer: 2
+  m_SortingLayerID: -963161887
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 1.285, y: 0.76, z: 0}
