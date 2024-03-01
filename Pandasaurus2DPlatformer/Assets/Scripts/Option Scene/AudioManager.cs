@@ -76,7 +76,7 @@ public class AudioManager : MonoBehaviour
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        if (scene.buildIndex >= 1 && scene.buildIndex <3)
+        if (scene.buildIndex >= 1 && scene.buildIndex <=3)
         {
             return;            
         }
