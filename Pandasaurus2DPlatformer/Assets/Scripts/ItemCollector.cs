@@ -36,6 +36,7 @@ public class ItemCollector : MonoBehaviour
             RectTransform targetElement = null;
             if (this.CompareTag("Blue"))
             {
+                Debug.Log("HERE");
                 targetElement = butterflyFirstJar.GetComponent<RectTransform>();
                 CollectionCount(butterflyFirstText, butterflyFirstCount);
             }
