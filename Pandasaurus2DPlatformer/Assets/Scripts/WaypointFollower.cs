@@ -15,7 +15,7 @@ public class WaypointFollower : MonoBehaviour
     private void Start()
     {
         itemCollector = GetComponent<ItemCollector>();
-        if (!CompareTag("Blue") || !CompareTag("Orange") || !CompareTag("Purple") || !CompareTag("Magic"))
+        if (!CompareTag("Blue") && !CompareTag("Orange") && !CompareTag("Purple") && !CompareTag("Magic"))
         {
             followAnyways = true;
         }
