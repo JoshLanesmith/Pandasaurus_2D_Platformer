@@ -50,14 +50,17 @@ TagManager:
   - name: Background
     uniqueID: 3331805409
     locked: 0
-  - name: TerrainDecoration
-    uniqueID: 3864896573
+  - name: AboveGroundDecoration
+    uniqueID: 2880695985
     locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
   - name: Terrain
     uniqueID: 2524768609
+    locked: 0
+  - name: TerrainDecoration
+    uniqueID: 3864896573
     locked: 0
   - name: UI Background
     uniqueID: 2368873749

@@ -71,19 +71,12 @@ public class AudioManager : MonoBehaviour
     {
         SceneManager.sceneLoaded += OnSceneLoaded;
 
-        PlayMusic("Menu Background");
+        PlayMusic("Background");
     }
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        if (scene.buildIndex >= 1 && scene.buildIndex <=3)
-        {
-            return;            
-        }
-        else
-        {
-            PlayMusic("Game Background");
-        }
+        return;
     }
 
     public void PlayMusic(string name)

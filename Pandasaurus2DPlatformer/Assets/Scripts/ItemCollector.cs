@@ -3,18 +3,16 @@ using System.Collections.Generic;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 using static UnityEditor.Progress;
 
 public class ItemCollector : MonoBehaviour
 {
+    public UnityEvent<string> onButterflyCaptured;
+
     public bool isBeingCaptured = false;
     public float moveSpeed = 1f;
-
-    private int butterflyFirstCount = 0;
-    private int butterflySecondCount = 0;
-    private int butterflyThirdCount = 0;
-    private int butterflyFourthCount = 0;
 
     private PlayerMovement playerMovement;
 
@@ -22,10 +20,7 @@ public class ItemCollector : MonoBehaviour
     [SerializeField] private Image butterflySecondjar;
     [SerializeField] private Image butterflyThirdJar;
     [SerializeField] private Image butterflyFourthJar;
-    [SerializeField] private TextMeshProUGUI butterflyFirstText;
-    [SerializeField] private TextMeshProUGUI butterflySecondText;
-    [SerializeField] private TextMeshProUGUI butterflyThridText;
-    [SerializeField] private TextMeshProUGUI butterflyFourthText;
+
     [SerializeField] private AudioSource collectSoundEffect;
 
 
@@ -36,27 +31,26 @@ public class ItemCollector : MonoBehaviour
             RectTransform targetElement = null;
             if (this.CompareTag("Blue"))
             {
-                Debug.Log("HERE");
                 targetElement = butterflyFirstJar.GetComponent<RectTransform>();
-                CollectionCount(butterflyFirstText, butterflyFirstCount);
+                CollectionCount();
             }
             else if (this.CompareTag("Orange"))
             {
                 targetElement = butterflySecondjar.GetComponent<RectTransform>();
-                CollectionCount(butterflySecondText, butterflySecondCount);
+                CollectionCount();
             }
             else if (this.CompareTag("Purple"))
             {
                 targetElement = butterflyThirdJar.GetComponent<RectTransform>();
-                CollectionCount(butterflyThridText, butterflyThirdCount);
+                CollectionCount();
             }
             else if (this.CompareTag("Magic"))
             {
                 targetElement = butterflyFourthJar.GetComponent<RectTransform>();
-                CollectionCount(butterflyFourthText, butterflyFourthCount);
+                CollectionCount();
             }
 
-            void CollectionCount(TextMeshProUGUI targetTextUI, int currentCount)
+            void CollectionCount()
             {
                 if (targetElement != null)
                 {
@@ -65,9 +59,7 @@ public class ItemCollector : MonoBehaviour
                     {
                         isBeingCaptured = false;
                         Destroy(gameObject);
-                        currentCount++;
-                        targetTextUI.text = currentCount.ToString();
-
+                        onButterflyCaptured.Invoke(gameObject.tag);
                     }
                     // Common movement logic for all items
                 }
