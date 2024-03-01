@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using Unity.VisualScripting;
@@ -8,7 +8,7 @@ using static UnityEditor.Progress;
 
 public class ItemCollector : MonoBehaviour
 {
-    private bool isBeingCaptured = false;
+    public bool isBeingCaptured = false;
     public float moveSpeed = 1f;
 
     private int butterflyFirstCount = 0;
@@ -27,6 +27,7 @@ public class ItemCollector : MonoBehaviour
     [SerializeField] private TextMeshProUGUI butterflyThridText;
     [SerializeField] private TextMeshProUGUI butterflyFourthText;
     [SerializeField] private AudioSource collectSoundEffect;
+
 
     private void Update()
     {
