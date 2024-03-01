@@ -5,12 +5,6 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/Not Used/Start Screen.unity
-    guid: edd0a6f3ae24c3641849c5959ae41291
-  - enabled: 0
-    path: Assets/Scenes/Not Used/Main Menu.unity
-    guid: af6554cac0b60774db61b5c860caa130
   - enabled: 1
     path: Assets/Scenes/1. Main Menu Scene.unity
     guid: 6b454f86f710e3845b7fb3923e015746
@@ -20,6 +14,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/3. Help Scene.unity
     guid: 112b9c2ef1023524189ce573ae15df5f
+  - enabled: 1
+    path: Assets/Scenes/Level Select.unity
+    guid: 7004c47d7ad1c8c46a050c25190e5053
   - enabled: 1
     path: Assets/Scenes/4. Level 1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
@@ -32,6 +29,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/6. Level 4.unity
     guid: 922eb319fe147ea4fa39ab34c3a486e1
+  - enabled: 1
+    path: Assets/Scenes/Ending Cut scene.unity
+    guid: 9886f42511a1a194a821f7641fe07d35
   - enabled: 1
     path: Assets/Scenes/7. End Screen.unity
     guid: 40b74fa8379c1e2429ba211014c01e11

@@ -1,0 +1,313 @@
+fileFormatVersion: 2
+guid: 61905d206151b1a46bb35b80612fcb29
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gnome_Walk_Net_1_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 17
+        width: 233
+        height: 229
+      alignment: 9
+      pivot: {x: 0.41589493, y: 0.05677039}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb13338c3bc51f84b85ad4c8c9e06e35
+      internalID: 728819319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnome_Walk_Net_1_1
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 40
+        width: 216
+        height: 218
+      alignment: 9
+      pivot: {x: 0.46743208, y: 0.0643698}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4c18f4c3e2bd224e939158210172ebb
+      internalID: -1417912645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnome_Walk_Net_1_2
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 36
+        width: 277
+        height: 227
+      alignment: 9
+      pivot: {x: 0.4129286, y: 0.05950612}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc6c4fdab2b3e5246810f7c94f51912f
+      internalID: 1431137757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnome_Walk_Net_1_3
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 39
+        width: 125
+        height: 266
+      alignment: 9
+      pivot: {x: 0.46598926, y: 0.036508903}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d1ec1b6581687444a72e72bdd4431e4
+      internalID: -1749677076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnome_Walk_Net_1_5
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 37
+        width: 128
+        height: 269
+      alignment: 9
+      pivot: {x: 0.4778576, y: 0.048702013}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d32dec98dad59e646ae5f32b8428b29f
+      internalID: 51213394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnome_Walk_Net_1_6
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 42
+        width: 181
+        height: 262
+      alignment: 9
+      pivot: {x: 0.51565874, y: 0.05467383}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc35e054f068080479e986f5eed89f89
+      internalID: 1189819105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnome_Walk_Net_1_7
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 39
+        width: 199
+        height: 253
+      alignment: 9
+      pivot: {x: 0.4548996, y: 0.046300475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db04d959499a35c4b948777bc5c9f793
+      internalID: -1472738346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnome_Walk_Net_1_8
+      rect:
+        serializedVersion: 2
+        x: 1518
+        y: 44
+        width: 242
+        height: 240
+      alignment: 9
+      pivot: {x: 0.36141187, y: 0.04927988}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8262a8abd1c0a614cbd4ca1222cc5c92
+      internalID: 1661936363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnome_Walk_Net_1_9
+      rect:
+        serializedVersion: 2
+        x: 1762
+        y: 38
+        width: 253
+        height: 231
+      alignment: 9
+      pivot: {x: 0.4458548, y: 0.05830319}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1320599a0b11b714f90b1b27c1aff00e
+      internalID: -1970006430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Gnome_Walk_Net_1_0: 728819319
+      Gnome_Walk_Net_1_1: -1417912645
+      Gnome_Walk_Net_1_2: 1431137757
+      Gnome_Walk_Net_1_3: -1749677076
+      Gnome_Walk_Net_1_4: 468400544
+      Gnome_Walk_Net_1_5: 51213394
+      Gnome_Walk_Net_1_6: 1189819105
+      Gnome_Walk_Net_1_7: -1472738346
+      Gnome_Walk_Net_1_8: 1661936363
+      Gnome_Walk_Net_1_9: -1970006430
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

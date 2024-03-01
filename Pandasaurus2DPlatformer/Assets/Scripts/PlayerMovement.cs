@@ -82,6 +82,7 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+
     private void UpdateAnimationState()
     {
         MovementState state;
@@ -108,7 +109,7 @@ public class PlayerMovement : MonoBehaviour
             }
 
 
-            if (rb.velocity.y > .1f)
+            if (rb.velocity.y > .1f && !IsGrounded())
             {
                 if (jumps == 0)
                 {
@@ -119,7 +120,7 @@ public class PlayerMovement : MonoBehaviour
                     state = MovementState.doubleJump;
                 }
             }
-            else if (rb.velocity.y < -.1f)
+            else if (rb.velocity.y < -.1f && !IsGrounded())
             {
                 state = MovementState.falling;
             }

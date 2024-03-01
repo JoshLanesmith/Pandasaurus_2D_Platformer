@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class AudioManager : MonoBehaviour
 {
@@ -16,6 +17,8 @@ public class AudioManager : MonoBehaviour
     private const string SFX_VOLUME = "SFXVolume";
     private const string MUSIC_MUTE = "musicMute";
     private const string SFX_MUTE = "sfxMute";
+
+    int sceneIndex;
 
     private void Awake()
     {
@@ -66,7 +69,21 @@ public class AudioManager : MonoBehaviour
 
     private void Start()
     {
-        PlayMusic("BG");
+        SceneManager.sceneLoaded += OnSceneLoaded;
+
+        PlayMusic("Menu Background");
+    }
+
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        if (scene.buildIndex >= 1 && scene.buildIndex <=3)
+        {
+            return;            
+        }
+        else
+        {
+            PlayMusic("Game Background");
+        }
     }
 
     public void PlayMusic(string name)
