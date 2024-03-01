@@ -8,8 +8,8 @@ public class ItemCollector : MonoBehaviour
 {
     private int blue_butter = 0;
     private int orange_butter = 0;
-    private int kiwi = 0;
-    private int melon = 0;
+    private int purple_butter = 0;
+    private int magic_butter = 0;
 
     [SerializeField] private TextMeshProUGUI ButterflyFirstTextCountText;
     [SerializeField] private TextMeshProUGUI ButterflySecondTextCountText;
@@ -37,13 +37,13 @@ public class ItemCollector : MonoBehaviour
             CollectItem(ref orange_butter, ButterflySecondTextCountText, collision.gameObject);
             Debug.Log("Orange butter!");
         }
-        else if (collision.gameObject.CompareTag("Kiwi") && swiping)
+        else if (collision.gameObject.CompareTag("Purple") && swiping)
         {
-            CollectItem(ref kiwi, ButterflyThirdTextCountText, collision.gameObject);
+            CollectItem(ref purple_butter, ButterflyThirdTextCountText, collision.gameObject);
         }
-        else if (collision.gameObject.CompareTag("Melon") && swiping)
+        else if (collision.gameObject.CompareTag("Magic") && swiping)
         {
-            CollectItem(ref melon, ButterflyFourthTextCountText, collision.gameObject);
+            CollectItem(ref magic_butter, ButterflyFourthTextCountText, collision.gameObject);
         }
     }
     private void CollectItem(ref int counter, TextMeshProUGUI text, GameObject item)
