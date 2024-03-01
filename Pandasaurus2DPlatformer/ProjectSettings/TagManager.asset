@@ -50,6 +50,9 @@ TagManager:
   - name: Background
     uniqueID: 3331805409
     locked: 0
+  - name: TerrainDecoration
+    uniqueID: 3864896573
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
