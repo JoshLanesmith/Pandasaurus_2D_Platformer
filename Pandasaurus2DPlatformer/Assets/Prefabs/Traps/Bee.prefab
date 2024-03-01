@@ -13,8 +13,9 @@ GameObject:
   - component: {fileID: 510061430647023319}
   - component: {fileID: 998607247629630241}
   - component: {fileID: 2232302636002412349}
+  - component: {fileID: 2365774446464441973}
   m_Layer: 0
-  m_Name: Saw
+  m_Name: Bee
   m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -76,7 +77,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: ca5ce7f3f3ac3bb499d37119b1867d7e, type: 3}
+  m_Sprite: {fileID: 393412174, guid: f0fc8d07d1a7ed043bb3ab1ad713fa75, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -102,7 +103,7 @@ MonoBehaviour:
   waypoints:
   - {fileID: 0}
   - {fileID: 0}
-  speed: 2
+  speed: 10
 --- !u!114 &998607247629630241
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -110,7 +111,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 56634773148037899}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 54f3578d097701340b4776fc9aca741e, type: 3}
   m_Name: 
@@ -148,6 +149,27 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.049551845}
+  m_Offset: {x: 0.42529637, y: 0.26661342}
   serializedVersion: 2
-  m_Radius: 1.1379482
+  m_Radius: 0.42441517
+--- !u!95 &2365774446464441973
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 56634773148037899}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 91ff439f6df98b34d8fc9c76f1c39a53, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
