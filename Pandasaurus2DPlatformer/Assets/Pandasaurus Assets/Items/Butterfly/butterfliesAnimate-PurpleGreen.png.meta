@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 800
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -108,7 +108,217 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: butterfliesAnimate-PurpleGreen_0
+      rect:
+        serializedVersion: 2
+        x: 1594
+        y: 2034
+        width: 934
+        height: 692
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa057bb5f2bbedb47b3591bf03209951
+      internalID: -592874017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfliesAnimate-PurpleGreen_1
+      rect:
+        serializedVersion: 2
+        x: 2828
+        y: 2695
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d29b7098506a84418e0ef9f9fa80241
+      internalID: -1273029437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfliesAnimate-PurpleGreen_2
+      rect:
+        serializedVersion: 2
+        x: 2903
+        y: 2695
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 632f5589649cec34e9116dcca325e814
+      internalID: -987035532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfliesAnimate-PurpleGreen_3
+      rect:
+        serializedVersion: 2
+        x: 4120
+        y: 1745
+        width: 651
+        height: 1056
+      alignment: 9
+      pivot: {x: 0.585981, y: 0.48939908}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eb402184ddb0b54481b1cb74817b44f
+      internalID: -4039937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfliesAnimate-PurpleGreen_4
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 2009
+        width: 967
+        height: 684
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dd3b866104aa0449bee6a8117d2984a
+      internalID: -271076694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfliesAnimate-PurpleGreen_5
+      rect:
+        serializedVersion: 2
+        x: 2836
+        y: 2073
+        width: 937
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fd025f0d9b61194d8e6f9dff13e470b
+      internalID: -1888609385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfliesAnimate-PurpleGreen_6
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 421
+        width: 717
+        height: 1218
+      alignment: 9
+      pivot: {x: 0.55724835, y: 0.5949739}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f65eae5700a859543959dc1f8c2e5c91
+      internalID: 1183702540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfliesAnimate-PurpleGreen_7
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 435
+        width: 769
+        height: 1148
+      alignment: 9
+      pivot: {x: 0.5048525, y: 0.5715108}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77985b9c350644449a8ec3047c0c768a
+      internalID: 1716392026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfliesAnimate-PurpleGreen_8
+      rect:
+        serializedVersion: 2
+        x: 2903
+        y: 502
+        width: 650
+        height: 1056
+      alignment: 9
+      pivot: {x: 0.55740875, y: 0.50353354}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b92b1d181e3f2114e849fedca71c23c2
+      internalID: -739131278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfliesAnimate-PurpleGreen_9
+      rect:
+        serializedVersion: 2
+        x: 4106
+        y: 783
+        width: 937
+        height: 654
+      alignment: 9
+      pivot: {x: 0.5079647, y: 0.4087082}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5845606525859304fa7703e64c9d429a
+      internalID: 279121724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +329,17 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      butterfliesAnimate-PurpleGreen_0: -592874017
+      butterfliesAnimate-PurpleGreen_1: -1273029437
+      butterfliesAnimate-PurpleGreen_2: -987035532
+      butterfliesAnimate-PurpleGreen_3: -4039937
+      butterfliesAnimate-PurpleGreen_4: -271076694
+      butterfliesAnimate-PurpleGreen_5: -1888609385
+      butterfliesAnimate-PurpleGreen_6: 1183702540
+      butterfliesAnimate-PurpleGreen_7: 1716392026
+      butterfliesAnimate-PurpleGreen_8: -739131278
+      butterfliesAnimate-PurpleGreen_9: 279121724
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

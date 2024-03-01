@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9f5ed0398e3b5fa4fbf421be5221f356
+guid: 23992d90ecc2131408b595eb2709ac9d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 800
+  spritePixelsToUnits: 2000
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -81,19 +81,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -110,190 +97,127 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: magicButterfly-Rainbow_0
+      name: beeAnimate-_0
       rect:
         serializedVersion: 2
-        x: 541
-        y: 2019
-        width: 994
-        height: 688
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 630
+        y: 1875
+        width: 1375
+        height: 951
+      alignment: 9
+      pivot: {x: 0.48100302, y: 0.523543}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70c69e831d87dd640a713d1dfc4f3988
-      internalID: 1802263157
+      spriteID: ff1df23241512034d86f7fd10b7a4d84
+      internalID: -2034373106
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magicButterfly-Rainbow_3
+      name: beeAnimate-_1
       rect:
         serializedVersion: 2
-        x: 3009
-        y: 2034
-        width: 974
-        height: 733
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2289
+        y: 1872
+        width: 1323
+        height: 1040
+      alignment: 9
+      pivot: {x: 0.4576921, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9c8fc97ff4ba7d498495a262cb58450
-      internalID: -1017807836
+      spriteID: 51d72f99a29cc04428e64fd3bda24f54
+      internalID: 901914114
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magicButterfly-Rainbow_7
+      name: beeAnimate-_2
       rect:
         serializedVersion: 2
-        x: 1770
-        y: 2012
-        width: 1007
-        height: 731
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 3954
+        y: 1806
+        width: 1322
+        height: 1181
+      alignment: 9
+      pivot: {x: 0.45766026, y: 0.4336471}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc135ec2a961cf846b96ce273513b41e
-      internalID: -2101013016
+      spriteID: d15635f25bdf5cc4786b3c9128ca79db
+      internalID: 631761053
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magicButterfly-Rainbow_9
+      name: beeAnimate-_3
       rect:
         serializedVersion: 2
-        x: 4272
-        y: 1721
-        width: 729
-        height: 1104
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 677
+        y: 434
+        width: 1323
+        height: 1040
+      alignment: 9
+      pivot: {x: 0.45205092, y: 0.49641207}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 951cc977c2b3b6c49b8433e8865bc429
-      internalID: -999608748
+      spriteID: 79c69723accf1b14796599fe7bbc6faa
+      internalID: 1240276613
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magicButterfly-Rainbow_10
+      name: beeAnimate-_4
       rect:
         serializedVersion: 2
-        x: 567
-        y: 407
-        width: 774
-        height: 1263
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2204
+        y: 416
+        width: 1373
+        height: 949
+      alignment: 9
+      pivot: {x: 0.46738616, y: 0.51572835}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a67afce3ed4ba484a8fe527474af1120
-      internalID: -180266999
+      spriteID: cc0563100b943344f90ce8bf294f70c1
+      internalID: -1226613995
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magicButterfly-Rainbow_12
+      name: beeAnimate-_5
       rect:
         serializedVersion: 2
-        x: 1791
-        y: 419
-        width: 852
-        height: 1199
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 3862
+        y: 416
+        width: 1326
+        height: 730
+      alignment: 9
+      pivot: {x: 0.46060166, y: 0.7146926}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72a4c4eab8e34574386df4dfaf1624ae
-      internalID: 632024685
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: magicButterfly-Rainbow_13
-      rect:
-        serializedVersion: 2
-        x: 3065
-        y: 486
-        width: 750
-        height: 1113
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2bf01f208f776f04a86d03b7f6aedcc5
-      internalID: -1859937105
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: magicButterfly-Rainbow_14
-      rect:
-        serializedVersion: 2
-        x: 4274
-        y: 728
-        width: 982
-        height: 769
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e4f9e20fb3144ba4ab2fe2dfc154ba7e
-      internalID: 821685419
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: magicButterfly-Rainbow_1
-      rect:
-        serializedVersion: 2
-        x: 5550
-        y: 747
-        width: 101
-        height: 90
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 18b02aebca2eb6843b287be77f270ad7
-      internalID: 2144912497
+      spriteID: 13d7cda3a8e2dee489271de44017e18e
+      internalID: -2122075021
       vertices: []
       indices: 
       edges: []
@@ -309,21 +233,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      magicButterfly-Rainbow_0: 1802263157
-      magicButterfly-Rainbow_1: 2144912497
-      magicButterfly-Rainbow_10: -180266999
-      magicButterfly-Rainbow_11: 742207038
-      magicButterfly-Rainbow_12: 632024685
-      magicButterfly-Rainbow_13: -1859937105
-      magicButterfly-Rainbow_14: 821685419
-      magicButterfly-Rainbow_2: 204976581
-      magicButterfly-Rainbow_3: -1017807836
-      magicButterfly-Rainbow_4: 1454925883
-      magicButterfly-Rainbow_5: -1028517805
-      magicButterfly-Rainbow_6: 1104804177
-      magicButterfly-Rainbow_7: -2101013016
-      magicButterfly-Rainbow_8: 1372721563
-      magicButterfly-Rainbow_9: -999608748
+      beeAnimate-_0: -2034373106
+      beeAnimate-_1: 901914114
+      beeAnimate-_2: 631761053
+      beeAnimate-_3: 1240276613
+      beeAnimate-_4: -1226613995
+      beeAnimate-_5: -2122075021
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

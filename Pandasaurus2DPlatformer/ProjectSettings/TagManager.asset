@@ -11,6 +11,8 @@ TagManager:
   - Melon
   - Blue
   - Orange
+  - Purple
+  - Magic
   layers:
   - Default
   - TransparentFX

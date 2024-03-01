@@ -6,33 +6,39 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/1. Main Menu Scene.unity
+    path: Assets/Scenes/Main Menu Scene.unity
     guid: 6b454f86f710e3845b7fb3923e015746
   - enabled: 1
-    path: Assets/Scenes/2. Opening Cut Scene.unity
+    path: Assets/Scenes/Opening Cut Scene.unity
     guid: 7275be59c2e4ca248ac012aefa035fd5
   - enabled: 1
-    path: Assets/Scenes/3. Help Scene.unity
+    path: Assets/Scenes/Help Scene.unity
     guid: 112b9c2ef1023524189ce573ae15df5f
+  - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
+    guid: 60851ceff3ff1d74da89e220d9ec5302
   - enabled: 1
     path: Assets/Scenes/Level Select.unity
     guid: 7004c47d7ad1c8c46a050c25190e5053
   - enabled: 1
-    path: Assets/Scenes/4. Level 1.unity
+    path: Assets/Scenes/Level 1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/5. Level 2.unity
+    path: Assets/Scenes/Level 2.unity
     guid: 53c1bc0666e19e04588c75ff98d678de
   - enabled: 1
-    path: Assets/Scenes/5. Level 3.unity
+    path: Assets/Scenes/Level 3.unity
     guid: 5f38e649383fe5e45923817bd1469202
   - enabled: 1
-    path: Assets/Scenes/6. Level 4.unity
+    path: Assets/Scenes/Level 4.unity
     guid: 922eb319fe147ea4fa39ab34c3a486e1
+  - enabled: 1
+    path: Assets/Scenes/Level 5.unity
+    guid: 7129f179be89f764f9b348447a5e82d9
   - enabled: 1
     path: Assets/Scenes/Ending Cut scene.unity
     guid: 9886f42511a1a194a821f7641fe07d35
   - enabled: 1
-    path: Assets/Scenes/7. End Screen.unity
+    path: Assets/Scenes/End Screen.unity
     guid: 40b74fa8379c1e2429ba211014c01e11
   m_configObjects: {}
