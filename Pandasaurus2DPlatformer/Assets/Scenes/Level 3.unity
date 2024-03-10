@@ -3654,7 +3654,7 @@ GameObject:
   - component: {fileID: 947572244}
   - component: {fileID: 947572243}
   m_Layer: 3
-  m_Name: PseudoTerrain
+  m_Name: TerrainDecoration
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3713,11 +3713,11 @@ TilemapRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1770198687
-  m_SortingLayer: 1
+  m_SortingLayerID: -430070723
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
-  m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
+  m_ChunkCullingBounds: {x: 2.205, y: 1.72, z: 0}
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
   m_SortOrder: 0
@@ -3733,6 +3733,26 @@ Tilemap:
   m_GameObject: {fileID: 947572241}
   m_Enabled: 1
   m_Tiles:
+  - first: {x: -4, y: -6, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 18, y: -5, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 3
+      m_TileSpriteIndex: 3
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: -9, y: -3, z: 0}
     second:
       serializedVersion: 2
@@ -3958,6 +3978,36 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 0
       m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 7, y: -2, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 76, y: -2, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 49, y: -1, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -4228,6 +4278,46 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 0
       m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 64, y: 3, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 4
+      m_TileSpriteIndex: 4
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 86, y: 3, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 3
+      m_TileSpriteIndex: 3
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: -13, y: 4, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 32, y: 4, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -4553,15 +4643,41 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+  - first: {x: 86, y: 8, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   m_AnimatedTiles: {}
   m_TileAssetArray:
   - m_RefCount: 82
     m_Data: {fileID: 11400000, guid: 47a49e243ec69dd47bf7b88827b09992, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 5f593e6938ba4984689ac63146548a3a, type: 2}
+  - m_RefCount: 6
+    m_Data: {fileID: 11400000, guid: 23579eb6ae0696d41b015d20a15747f5, type: 2}
+  - m_RefCount: 2
+    m_Data: {fileID: 11400000, guid: 3d2fc5823476a8c49b2ce83822d78b98, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 40ef9e0925430f9419bbe863ce4e40bf, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 82
     m_Data: {fileID: -2121646391, guid: 332bd348555948e43883896c5ada87e8, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 21300000, guid: 20fc4156ede7c6c45b75fc8198316244, type: 3}
+  - m_RefCount: 6
+    m_Data: {fileID: 21300000, guid: ab5fdb628233c04408b85485cf661202, type: 3}
+  - m_RefCount: 2
+    m_Data: {fileID: 21300000, guid: f1ee58e0bfef82d40b35216ed06233c6, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 21300000, guid: f19a920b8f4a24840903767d7fd8794b, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 82
+  - m_RefCount: 92
     m_Data:
       e00: 1
       e01: 0
@@ -4580,13 +4696,13 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 82
+  - m_RefCount: 92
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Origin: {x: -26, y: -3, z: 0}
-  m_Size: {x: 108, y: 12, z: 1}
+  m_Origin: {x: -26, y: -6, z: 0}
+  m_Size: {x: 113, y: 15, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
@@ -39097,7 +39213,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5769655273947118239, guid: 73f21b611417fb944b32d2ea64d82da6, type: 3}
       propertyPath: m_Name
-      value: TerrainDecoration
+      value: PseudoTerrain
       objectReference: {fileID: 0}
     - target: {fileID: 6438603601225934922, guid: 73f21b611417fb944b32d2ea64d82da6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -39145,7 +39261,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7146504672075810101, guid: 73f21b611417fb944b32d2ea64d82da6, type: 3}
       propertyPath: m_SortingLayerID
-      value: -963161887
+      value: -1414271311
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -40507,7 +40623,7 @@ GameObject:
   - component: {fileID: 2147297144}
   - component: {fileID: 2147297143}
   m_Layer: 0
-  m_Name: TerrainDecoration
+  m_Name: PseudoTerrain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -40566,8 +40682,8 @@ TilemapRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -963161887
-  m_SortingLayer: -2
+  m_SortingLayerID: -1414271311
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 1.285, y: 0.76, z: 0}
