@@ -63,7 +63,7 @@ public class PlayerMovement : MonoBehaviour
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
         }
 
-        if (Input.GetKeyDown(KeyCode.LeftShift))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             Debug.Log("Hello");
             isSwiping = true;
@@ -77,7 +77,7 @@ public class PlayerMovement : MonoBehaviour
         UpdateAnimationState();
 
         // If the player presses the LeftControl key and Dash is available, it starts the Dash coroutine.
-        if (Input.GetKeyDown(KeyCode.LeftControl) && canDash)
+        if (Input.GetKeyDown(KeyCode.LeftShift) && canDash)
         {
             StartCoroutine(Dash());
         }
