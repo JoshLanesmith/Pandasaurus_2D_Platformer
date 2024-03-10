@@ -4,14 +4,14 @@
 
 > This project involves participating in the Indie Game Jam hosted by the [VARLab](https://www.linkedin.com/company/varlab-virtual-and-augmented-reality-lab/) at Conestoga College.
 
-The PandaSaurus Studio is a team of 10 developers and designers.
-Our goal was to produce a 2D game with content and design that appeals to players of all ages, following the theme of "non-violent". We demonstrated skills in implementing game mechanics using C# and Unity Engine, creating game assets and managing the project process on DevOps following Agile Methodology.
+PandaSaurus Studio is a team of 10 developers and designers.
+Our goal was to produce a 2D game with content and design that appeals to players of all ages, following the theme of "non-violence". We demonstrated skills in implementing game mechanics using C# and Unity Engine, creating game assets, and managing the project process on DevOps following Agile Methodology.
 
 ## How To Play
 
-https://topchickenturtle.itch.io/gnomeo-and-the-butterfly
+[Click here to play Gnomeo and the Butterfly](https://topchickenturtle.itch.io/gnomeo-and-the-butterfly)
 
-## Game Trailor
+## Game Trailer
 
 ![game trailer](./Preview/game_trailer.gif)
 
@@ -46,6 +46,6 @@ https://topchickenturtle.itch.io/gnomeo-and-the-butterfly
 - Gabriel Siewert
 - Jindo Kim
 - Johnstanley Ajagu
-- Josh Lane-smith
+- Josh Lane-Smith
 - Juhwan Seo
 - Miles Purvis
